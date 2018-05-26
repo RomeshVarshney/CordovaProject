@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <title>Calculator</title>
+
+    <!-- Calculator references -->
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body bgColor="aqua">
+    <h1 style="padding: 10px; text-align: left;">Calculator</h1><hr>
+    <div class="app">
+        <input id="txt1" type="number" placeholder="Enter first number" style="width: 100%" /><br /><br />
+        <select id="op" type="number" style="width: 100%">
+            <option value="0">Addition (+)</option>
+            <option value="1">Subtraction (-)</option>
+            <option value="2">Multiplication (X)</option>
+            <option value="3">Division (/)</option>
+        </select><br /><br />
+        <input id="txt2" type="number" placeholder="Enter second number" style="width: 100%" /><br /><br />
+        <input id="btnCalculate" type="submit" value="Calculate" style="width: 100%" /><br /><br />
+        <h4 id="res" style="color:red"></h4>
+    </div>
+
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>
