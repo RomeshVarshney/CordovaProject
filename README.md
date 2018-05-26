@@ -1,2 +1,3 @@
 # CordovaProject
-first niit cordova project
+first cordova project
+simple calculator using apache cordova
